@@ -1,0 +1,79 @@
+
+body { background: #BF4C4C; }
+
+/* slider
+----------------------*/
+
+.slide-wrap {
+  margin: 150px auto 0;
+  width: 100%;
+}
+
+.slide-mask {
+  position: relative;
+  overflow: hidden;
+  height: 1350px;
+}
+
+.slide-group {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+}
+
+.slide {
+  height: 1350px;
+  font: 100 90px/135px "lato";
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin-left: -70px;
+}
+.slide img{width: 100%;}
+
+/* nav
+----------------------*/
+
+.slide-nav { text-align: center; }
+
+.slide-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.slide-nav li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: rgb(175, 56, 56);
+  cursor: pointer;
+  margin-left: .5em;
+  list-style-type: none;
+  border-radius: 50%;
+}
+
+.slide-nav li.current { background: rgb(144, 39, 39); }
+
+#content, #page {padding-bottom: 0 !important}
+ul.localizacion{
+    margin: 0 auto;
+    padding-left: 0;
+    padding-bottom: 32px;
+}
+ul.social{padding-top: 12px;margin-top: 30px;}
+.mapa{height: 235px}
+
+.site-branding img {
+    max-width: initial !important;
+    max-height: 80px;
+    vertical-align: middle;
+}
+.mt-contact-bar{background: white}
+.mt-contact-bar .social-bar-details{display: none}
+.mt-contact-bar .contact-bar-details{display: none}
+.sliderGPS{    border-bottom: 2px solid #e60714;
+    margin-bottom: 50px;}
