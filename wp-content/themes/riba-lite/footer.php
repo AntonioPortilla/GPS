@@ -43,7 +43,6 @@
 	                    <div class="text-lg-left text-md-left text-sm-left text-xs-center">
 							<ul class="social">
 								<li><a href="#"><img src="gps/images/face.png" alt="facebook"></a></li>
-								<li><a href="#"><img src="gps/images/twitter.png" alt="twitter"></a></li>
 								<li><a href="#"><img src="gps/images/lin.png" alt="instagram"></a></li>
 							</ul>
 	                    </div>

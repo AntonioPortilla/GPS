@@ -50,7 +50,12 @@
             .footer-contact-container {
                 border: 0;
             }
-
+            #rl-main-menu>ul>li>a{
+                font-size: 16px;
+            }
+            #rl-main-menu>ul>li>a:hover{
+                color:  #e60714;
+            }
 
 
         </style>
