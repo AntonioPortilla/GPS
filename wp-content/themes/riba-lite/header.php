@@ -56,6 +56,20 @@
             #rl-main-menu>ul>li>a:hover{
                 color:  #e60714;
             }
+            .post-grid .link-wrapper:hover{
+                opacity: 1;
+                background: #e60714;
+            }
+            .post-grid .link-wrapper{
+                background-color: transparent;
+            }
+            .post-cover-wrapper{opacity: 1}
+            .post-grid .link-wrapper:hover .post-cover-wrapper{
+                opacity: .2 !important;
+            }
+            .post-grid .entry-meta{display: none;}
+            .post-grid.post-standard .entry-title{display: none;}
+            .post-grid.post-standard .entry-title:hover{display: block;}
 
 
         </style>
