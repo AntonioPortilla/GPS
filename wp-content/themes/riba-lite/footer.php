@@ -153,6 +153,13 @@
 
 
     })
+    var ruta_general = "<?php echo site_url(); ?>/",
+        ruta_nosotros = "<?php echo site_url(); ?>/nosotros/";
+
+    if (window.location.href == ruta_nosotros) {
+        $('#primary-menu li a').css('border-bottom', '0');
+        $('#primary-menu li:nth-child(2) a').css('border-bottom', '4px solid #e60714');
+    };
 </script>
 </body>
 </html>
