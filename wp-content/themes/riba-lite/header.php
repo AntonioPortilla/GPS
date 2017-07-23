@@ -79,12 +79,41 @@
                 text-decoration: underline !important;
                 font-size: 28px;
             }
+            .form-contact .row-1 input[type="text"], .form-contact .row-1 input[type="email"]{width: 93.5%}
+            .form-contact .row-2 {width: 49%;display: inline-block;}
+            .form-contact .row-2 input[type="text"]{width: 90%;}
+            article.hentry header.entry-header{
+                padding-top: 81px;
+                text-align: center;
+            }
+            .row-1 h2{color:#e60714; font-size: 22px;}
+            .row-1 textarea{
+                max-height: 135px;
+                background: #eee;
+                border: 0;
+            }
+            .row-1 input[type="submit"]{
+                background: #e60714;
+                border: 0;
+                color: white;
+                height: 50px;
+                padding: 0;
+                line-height: 50px;
+                width: 116px;
+                float: right;
+            }
+            .form-contact input[type="text"], .form-contact input[type="email"]{
+                background: #eee;
+                border: 0;
+                height: 50px;
+            }
+            .your-subject input{width: 100% !important;}
 
 
         </style>
-        <link rel="stylesheet" type="text/css" href="gps/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>/gps/css/style.css" />
  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="gps/js/simpleslider.js"></script>
+<script src="<?php echo site_url(); ?>/gps/js/simpleslider.js"></script>
 
     </head>
     <?php $riba_lite_logo_text = get_theme_mod('riba_lite_text_logo', __('Riba', 'riba-lite') ); ?>
@@ -97,7 +126,7 @@
                 <header id="masthead" class="site-header" role="banner">
                     <div class="site-branding col-lg-4 col-md-4 col-sm-4 col-xs-12 text-lg-left text-md-left text-sm-left text-xs-center">
                         <?php //echo '<a class="rl-text-logo" href="'. esc_url( home_url( '/' ) ) .'" rel="home" >'. esc_attr( $riba_lite_logo_text ) .'</a>'; ?>
-                        <a href="/"><img src="gps/images/logo.png" alt=""></a>
+                        <a href="<?php echo site_url(); ?>"><img src="<?php echo site_url(); ?>/gps/images/logo.png" alt=""></a>
                     </div><!--/.site-branding.col-lg-4.col-md-4.col-sm-4.col-xs-12.text-lg-left.text-md-left.text-sm-left.text-xs-center-->
                     <nav id="site-navigation" class="main-navigation col-lg-8 col-md-8 col-sm-8 xs" role="navigation">
                         <?php wp_nav_menu( array(

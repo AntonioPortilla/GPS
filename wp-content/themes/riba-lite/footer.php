@@ -42,9 +42,9 @@
 					<div class="col-lg-12 col-md-4 col-xs-12">
 	                    <div class="text-lg-left text-md-left text-sm-left text-xs-center">
 							<ul class="social">
-								<li><a href="#"><img src="gps/images/face.png" alt="facebook"></a></li>
-								<li><a href="#"><img src="gps/images/lin.png" alt="instagram"></a></li>
-							</ul>
+								<li><a href="#"><img src="<?php echo site_url(); ?>/gps/images/face.png" alt="facebook"</a></li>
+								<li><a href="#"><img src="<?php echo site_url(); ?>/gps/images/lin.png" alt="instagram"></a></li>
+                            </ul>
 	                    </div>
 	                </div>
             	<?php if($footer_email !== '' || $footer_phone !== '' || $footer_dir !== '' || $footer_dis !== '' ) { ?>
