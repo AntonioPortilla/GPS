@@ -119,6 +119,7 @@
                 padding-bottom: 50px;
                 float: left;
                 width: 100%;
+                text-align: center;
             }
             /*slider*/
             .site-branding img {
