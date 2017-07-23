@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area detalle_menus">
 		<main id="main" class="site-main" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -15,17 +15,17 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
 
-			<div class="container">
+			<!--<div class="container" style="display:none">
 				<div class="row">
-					<?php
+					<?php /*
 					// If comments are open or we have at least one comment, load up the comment template.
 					if ( comments_open() || get_comments_number() ) :
 						comments_template();
-					endif;
+					endif;*/
 					?>
 
 				</div>
-			</div>
+			</div>-->
 
 		<?php endwhile; // End of the loop. ?>
 

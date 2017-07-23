@@ -31,7 +31,7 @@
                 <?php the_content(); ?>
             </div>
             <div class="clearfix"></div>
-            <?php do_action('mtl_single_after_content'); ?>
+            <?php /*do_action('mtl_single_after_content'); */?>
         </div>
     </div>
 
