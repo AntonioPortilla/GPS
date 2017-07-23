@@ -5,6 +5,7 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<link rel="profile" href="http://gmpg.org/xfn/11">
     	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+        <link rel="stylesheet" href="<?php echo site_url(); ?>/gps/css/style.css">
     	<?php wp_head(); ?>
         <style>
             @media (min-width: 768px){
@@ -225,6 +226,77 @@
                 height: 40px;
                 /*background: #222 url(images/etex-logo.png) no-repeat right top;*/
                 width: 180px;
+            }
+            /*bloque servicios*/
+            .bloque-servicios {
+                z-index: 105;
+                margin-top: 100px;
+                width: 100%;
+                margin-left: 0%;
+                background-color: #0099FF;
+            }
+            .contenedor-srv{
+                z-index: 91;
+                margin-right: -10000px;
+                width: 59.17%;
+                margin-left: 20.42%;
+                padding: 100px 0 250px 0;
+            }
+            .contenedor-srv h1{
+                font-family: niveau-grotesk, sans-serif;
+                font-weight: 900;
+                text-align: center;
+                z-index: 91;
+                color: #0099FF;
+                margin-top: -145px;
+                position: absolute;
+                width: 1400px;
+                left: 50%;
+                margin-left: -700px;
+            }
+            .contenedor-srv h2{
+                font-size: 50px;
+                font-family: lato, sans-serif;
+                padding: 0;
+                margin: 0;
+                font-weight: 300;
+            }
+            .txt-left {
+                width: 450px;
+                min-height: 198px;
+                line-height: 48px;
+                text-align: right;
+                font-size: 40px;
+                margin-right: -10000px;
+                margin-top: 28px;
+                left: -464px;
+                position: relative;
+                font-family: niveau-grotesk, sans-serif;
+                font-weight: 900;
+                z-index: 105;
+                color: #FFFFFF;
+                margin-left: 50%;
+                float:left;
+            }
+            .txt-right {
+                font-family: lato, sans-serif;
+                font-weight: 300;
+                text-align: justify;
+                color: #FFFFFF;
+                position: relative;
+                margin-left: 50%;
+                padding-left: 10px;
+            }
+            .txt-right p {
+                color: white;
+            }
+            .txt-left h3{
+                font-family: lato, sans-serif;
+                font-weight: bold;
+                font-size: 55px;
+                line-height: 1.2;
+                padding: 0;
+                margin: 0;
             }
             @media (min-width: 768px) {
                 .col-md-3, .cell3.fluid-column {
