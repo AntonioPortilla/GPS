@@ -241,6 +241,7 @@
                 width: 59.17%;
                 margin-left: 20.42%;
                 padding: 100px 0 250px 0;
+                margin-top: 195px;
             }
             .contenedor-srv h1{
                 font-family: niveau-grotesk, sans-serif;
