@@ -109,6 +109,12 @@
             }
             .your-subject input{width: 100% !important;}
             .valores img{width: 60%;}
+            .valores {
+                padding-top: 35px;
+                padding-bottom: 50px;
+                float: left;
+                width: 100%;
+            }
 
 
         </style>
