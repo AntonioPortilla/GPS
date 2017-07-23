@@ -12,7 +12,7 @@
                     height: 1300px;
                 }
             }
-            #menu-item-34 a{
+            #primary-menu li:first-child a{
                 border-bottom: 4px solid #e60714;
                 padding-bottom: 8px !important;
             }
@@ -82,7 +82,7 @@
             .form-contact .row-1 input[type="text"], .form-contact .row-1 input[type="email"]{width: 93.5%}
             .form-contact .row-2 {width: 49%;display: inline-block;}
             .form-contact .row-2 input[type="text"]{width: 90%;}
-            article.hentry header.entry-header{
+            article.hentry header.entry-header h1{
                 padding-top: 81px;
                 text-align: center;
             }
