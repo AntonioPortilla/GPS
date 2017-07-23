@@ -12,6 +12,7 @@
                     height: 1300px;
                 }
             }
+            #page {padding-bottom: 0;}
             #primary-menu li:first-child a{
                 border-bottom: 4px solid #e60714;
                 padding-bottom: 8px !important;
@@ -28,7 +29,11 @@
                 margin-bottom: 35px;
             }
             #footer {
-                background: #2e2e30;
+                background: #222;
+            }
+            /*redes sociales*/
+            .social{
+                margin: auto;
             }
             .social, .localizacion {
                 text-align: center;
@@ -122,6 +127,121 @@
             .nosotros-home{
                 float: left;
                 margin-top: 143px;
+            }
+            /*footer*/
+            .inc-footer {
+                padding: 45px 0 0 0;
+                background: #222;
+            }
+            .inc-footer .website-width {
+                max-width: 1000px;
+                box-sizing: border-box;
+                padding: 0 2px 0 2px;
+                width: 100%;
+                margin: auto
+            }
+            .footer-address {
+                font: normal normal 300 14px/18px "Roboto",sans-serif;
+                color: #fff;
+                text-align: left;
+            }
+            .footer-address p {
+                font: normal normal 300 14px/18px "Roboto",sans-serif;
+                color: #fff;
+                padding: 0 0 25px 0;
+            }
+            .footer-address strong {
+                display: block;
+                font: normal normal 400 14px/18px "Roboto",sans-serif;
+            }
+            .footer-menu {
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-flex-wrap: nowrap;
+                -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+                -webkit-justify-content: space-between;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+                text-align: center;
+            }
+            .vertical-navigation li>a:hover {
+                color: #e60714 !important;
+                transition: .3s;
+            }
+            .footer-menu ul.vertical-navigation {
+                display: block;
+                vertical-align: top;
+                box-sizing: border-box;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                float: left;
+                padding: 0 5px;
+            }
+            .footer-menu ul.vertical-navigation li {
+                color: #ccc;
+                text-align: left;
+                margin: 0;
+            }
+            .footer-menu ul.vertical-navigation li a {
+                font: normal normal 300 14px/18px "Roboto",sans-serif;
+                color: #fff;
+                display: block;
+                text-decoration: none;
+                transition: .3s;
+                padding-bottom: 12px;
+            }
+            .u-reset {
+                clear: both;
+                display: block;
+            }
+            .etex-footer {
+                /*margin: 120px 0 0 0;
+                background: url(images/etex-line.png) no-repeat 40px center;
+                height: 40px;
+                position: relative;*/
+
+                position: relative;
+                text-align: left;
+                padding-bottom: 25px;
+            }/*
+            .etex-footer::before {
+                content: ' ';
+                display: block;
+                width: 125px;
+                height: 125px;
+                background: url(images/logo-grey.png) no-repeat top center;
+                position: absolute;
+                bottom: 37px;
+                left: 0;
+            }*/
+            .etex-footer img{padding-left: 15px;}
+            .etex-footer .etex-logo {
+                float: right;
+                height: 40px;
+                /*background: #222 url(images/etex-logo.png) no-repeat right top;*/
+                width: 180px;
+            }
+            @media (min-width: 768px) {
+                .col-md-3, .cell3.fluid-column {
+                    box-sizing: border-box;
+                    position: relative;
+                    min-height: 1px;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    float: left;
+                    width: 25%;
+                }
+                .col-md-6, .cell6.fluid-column {
+                    box-sizing: border-box;
+                    position: relative;
+                    min-height: 1px;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    float: left;
+                    width: 50%;
+                }
             }
 
 

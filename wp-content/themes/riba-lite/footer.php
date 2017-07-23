@@ -33,35 +33,85 @@
     </div>-->
     <div class="clearfix"></div>
     <div class="footer-contact-container">
-        	<div class="mapa">
+            <div class="mapa">
 
-<iframe class="actAsDiv" style="width:100%;height:100%;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;q=El%20Derby%20250%2C%20Lima%2015023&amp;aq=0&amp;ie=UTF8&amp;t=m&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe>
-        	</div>
-        <div class="container">
+            <iframe class="actAsDiv" style="width:100%;height:100%;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;q=El%20Derby%20250%2C%20Lima%2015023&amp;aq=0&amp;ie=UTF8&amp;t=m&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe>
+            </div>
+        <div class="container" style="display:none">
             <div class="row">
-					<div class="col-lg-12 col-md-4 col-xs-12">
-	                    <div class="text-lg-left text-md-left text-sm-left text-xs-center">
-							<ul class="social">
-								<li><a href="#"><img src="<?php echo site_url(); ?>/gps/images/face.png" alt="facebook"</a></li>
-								<li><a href="#"><img src="<?php echo site_url(); ?>/gps/images/lin.png" alt="instagram"></a></li>
+                    <div class="col-lg-12 col-md-4 col-xs-12">
+                        <div class="text-lg-left text-md-left text-sm-left text-xs-center">
+                            <ul class="social">
+                                <li><a href="#"><img src="<?php echo site_url(); ?>/gps/images/face.png" alt="facebook"</a></li>
+                                <li><a href="#"><img src="<?php echo site_url(); ?>/gps/images/lin.png" alt="instagram"></a></li>
                             </ul>
-	                    </div>
-	                </div>
-            	<?php if($footer_email !== '' || $footer_phone !== '' || $footer_dir !== '' || $footer_dis !== '' ) { ?>
-				<div class="col-lg-12 col-md-4 col-xs-12">
+                        </div>
+                    </div>
+                <?php if($footer_email !== '' || $footer_phone !== '' || $footer_dir !== '' || $footer_dis !== '' ) { ?>
+                <div class="col-lg-12 col-md-4 col-xs-12">
                     <div class="text-lg-left text-md-left text-sm-left text-xs-center">
-						<ul class="localizacion">
-							<li><?php _e('', 'riba-lite'); ?><a href="mailto:<?php echo esc_attr( $footer_email ); ?>" rel="nofollow" target="_blank"><?php echo esc_attr( $footer_email ); ?></a></li>
-							<li><?php _e('', 'riba-lite'); ?><a href="tel:<?php echo esc_attr( $footer_phone ); ?>" rel="nofollow"><?php echo esc_attr( $footer_phone ); ?></a></li>
-							<li><?php _e('', 'riba-lite'); ?><a href="tel:<?php echo esc_attr( $footer_dir ); ?>" rel="nofollow"><?php echo esc_attr( $footer_dir ); ?></a></li>
-							<li><?php _e('', 'riba-lite'); ?><a href="tel:<?php echo esc_attr( $footer_dis ); ?>" rel="nofollow"><?php echo esc_attr( $footer_dis ); ?></a></li>
-						</ul>
+                        <ul class="localizacion">
+                            <li><?php _e('', 'riba-lite'); ?><a href="mailto:<?php echo esc_attr( $footer_email ); ?>" rel="nofollow" target="_blank"><?php echo esc_attr( $footer_email ); ?></a></li>
+                            <li><?php _e('', 'riba-lite'); ?><a href="tel:<?php echo esc_attr( $footer_phone ); ?>" rel="nofollow"><?php echo esc_attr( $footer_phone ); ?></a></li>
+                            <li><?php _e('', 'riba-lite'); ?><a href="tel:<?php echo esc_attr( $footer_dir ); ?>" rel="nofollow"><?php echo esc_attr( $footer_dir ); ?></a></li>
+                            <li><?php _e('', 'riba-lite'); ?><a href="tel:<?php echo esc_attr( $footer_dis ); ?>" rel="nofollow"><?php echo esc_attr( $footer_dis ); ?></a></li>
+                        </ul>
                     </div>
                 </div>
                 <?php } ?>
             </div>
         </div>
     </div>
+
+        <div class="component cwp inc-footer">
+            <div class="website-width">
+            <div class="footer-columns">
+            <div class="fluid-column cell3">
+                <div class="footer-address">
+                    <p>Central Telefónica<br>
+                    <strong>+51 1 246 0086</strong>  Anexo: 22</p>
+                    <p>Dirección<br>
+                    <strong>Av. El Derby 250 Oficina 1903,</strong> Santiago de Surco, Lima – Perú</p>
+                </div>
+            </div>
+            <div class="fluid-column cell6">
+                <div class="footer-menu">
+                <ul class="vertical-navigation">
+                <li><a href="#/tipo-proyectos">Tipo de Proyecto</a></li>
+                <li><a href="#/todos-productos">Soluciones</a></li>
+                <li><a href="#/capacitaciones">Capacitaciones</a></li>
+                <li><a href="#/soporte-tecnico">Soporte técnico</a></li>
+                <li><a href="#/galeria">Galería</a></li>
+                </ul>
+                <ul class="vertical-navigation">
+                <li><a href="#/sobre-nosotros">Sobre nosotros</a></li>
+                <li><a href="#/contactactanos">Contáctanos</a></li>
+                <li><a href="#" target="_blank">Trabaja con nosotros</a></li>
+                <li><a href="#" target="_blank">Pedido en línea</a></li>
+                </ul>
+                <div class="u-reset"></div>
+                </div>
+            </div>
+            <div class="fluid-column cell3">
+                 <ul class="social">
+                    <li><a href="#"><img src="<?php echo site_url(); ?>/gps/images/face.png" alt="facebook"></a></li>
+                    <li><a href="#"><img src="<?php echo site_url(); ?>/gps/images/lin.png" alt="instagram"></a></li>
+                </ul>
+            </div>
+            <div class="u-reset"></div>
+            </div>
+            <div class="etex-footer">
+            <img src="<?php echo site_url(); ?>/gps/images/global-footer.png" alt="">
+                <a href="http://www.etexgroup.com" class="etex-logo" target="_blank"></a>
+            </div>
+            </div>
+        </div>
+
+
+
+
+
+
 
 
 
