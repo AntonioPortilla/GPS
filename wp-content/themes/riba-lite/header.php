@@ -72,8 +72,8 @@
             .post-grid.post-standard .entry-title:hover{display: block;}
             .post-grid .entry-content{top:0;transform:initial;-webkit-transform:initial;}
             .post-grid .entry-content a{
-                height: 420px;
-                line-height: 420px;
+                height: 378px;
+                line-height: 378px;
                 text-align: center;
                 display: block;
                 text-decoration: underline !important;
@@ -108,6 +108,7 @@
                 height: 50px;
             }
             .your-subject input{width: 100% !important;}
+            .valores img{width: 60%;}
 
 
         </style>
