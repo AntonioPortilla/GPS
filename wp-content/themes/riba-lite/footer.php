@@ -84,7 +84,7 @@
                 <li><a href="#/galeria">Galería</a></li>
                 </ul>
                 <ul class="vertical-navigation">
-                <li><a href="#/sobre-nosotros">Sobre nosotros</a></li>
+                <li><a href="<?php echo site_url(); ?>/nosotros/">Sobre nosotros</a></li>
                 <li><a href="#/contactactanos">Contáctanos</a></li>
                 <li><a href="#" target="_blank">Trabaja con nosotros</a></li>
                 <li><a href="#" target="_blank">Pedido en línea</a></li>

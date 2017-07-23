@@ -113,7 +113,7 @@
                 height: 50px;
             }
             .your-subject input{width: 100% !important;}
-            .valores img{width: 60%;}
+            .valores img{width: 60%;text-align: center;}
             .valores {
                 padding-top: 35px;
                 padding-bottom: 50px;
@@ -127,6 +127,7 @@
             .nosotros-home{
                 float: left;
                 margin-top: 143px;
+                padding-bottom: 35px;
             }
             /*footer*/
             .inc-footer {

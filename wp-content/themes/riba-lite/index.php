@@ -14,17 +14,6 @@
 			<p>La calidad que ofrece GPS garantiza la integridad de los productos envasados cumpliendo con los requerimientos de barrera a los efectos del medio ambiente, así como con las propiedades mecánicas de resistencia al desgarre, rigidez o elongación, transparencia, brillo u opacidad, según las especificaciones indispensables para la protección y presentación al consumidor.</p>
 			<p>GPS brinda soporte técnico, desde la selección de los materiales, diseño gráfico y empaque del producto final siguiendo estrictos procedimientos de buenas prácticas de manufactura.</p>
 		</div>
-		<div class="valores">
-			<div class="col-sm-4 col-xs-12">
-				<img src="<?php echo site_url(); ?>/gps/images/Valores-1.png" alt="valores">
-			</div>
-			<div class="col-sm-4 col-xs-12">
-				<img src="<?php echo site_url(); ?>/gps/images/valores-2.png" alt="valores">
-			</div>
-			<div class="col-sm-4 col-xs-12">
-				<img src="<?php echo site_url(); ?>/gps/images/valores-3.png" alt="valores">
-			</div>
-		</div>
 
         <?php if ( have_posts() ) : ?>
 
