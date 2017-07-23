@@ -15,13 +15,13 @@
 		</div>
 		<div class="valores">
 			<div class="col-sm-4 col-xs-12">
-				<img src="<?php echo site_url(); ?>/gps/images/Valores-1.png" alt="">
+				<img src="<?php echo site_url(); ?>/gps/images/valores-1.png" alt="valores">
 			</div>
 			<div class="col-sm-4 col-xs-12">
-				<img src="<?php echo site_url(); ?>/gps/images/Valores-2.png" alt="">
+				<img src="<?php echo site_url(); ?>/gps/images/valores-2.png" alt="valores">
 			</div>
 			<div class="col-sm-4 col-xs-12">
-				<img src="<?php echo site_url(); ?>/gps/images/Valores-3.png" alt="">
+				<img src="<?php echo site_url(); ?>/gps/images/valores-3.png" alt="valores">
 			</div>
 		</div>
 
