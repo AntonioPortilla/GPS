@@ -98,10 +98,10 @@
 <script>
     $('.link-wrapper').on('mouseover', function(){
         $('.entry-content .entry-title').css('display', 'none');
-      
+
         $(this).find($('.entry-content .entry-title')).css('display', 'block');
 
-       
+
     })
 </script>
 </body>

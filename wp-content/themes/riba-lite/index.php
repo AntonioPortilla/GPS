@@ -3,7 +3,8 @@
 <div id="primary" class="content-area">
     <main id="main" class="site-main text-center postGPS" role="main">
     	<div class="line-horizontal"></div>
-		<div class="sliderGPS">
+    	<?php if ( function_exists( 'easingslider' ) ) { easingslider( 60 ); } ?>
+		<div class="sliderGPS" style="display:none">
 			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(slider) ) : ?>
 			<?php endif; ?>
 		</div>

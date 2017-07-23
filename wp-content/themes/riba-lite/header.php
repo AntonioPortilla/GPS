@@ -115,11 +115,19 @@
                 float: left;
                 width: 100%;
             }
+            /*slider*/
+            .site-branding img {
+                max-width: initial;
+            }
+            .nosotros-home{
+                float: left;
+                margin-top: 143px;
+            }
 
 
         </style>
-        <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>/gps/css/style.css" />
- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!--<link rel="stylesheet" type="text/css" href="<?php //echo site_url(); ?>/gps/css/style.css" />-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 
     </head>
