@@ -70,6 +70,15 @@
             .post-grid .entry-meta{display: none;}
             .post-grid.post-standard .entry-title{display: none;}
             .post-grid.post-standard .entry-title:hover{display: block;}
+            .post-grid .entry-content{top:0;transform:initial;-webkit-transform:initial;}
+            .post-grid .entry-content a{
+                height: 420px;
+                line-height: 420px;
+                text-align: center;
+                display: block;
+                text-decoration: underline !important;
+                font-size: 28px;
+            }
 
 
         </style>
