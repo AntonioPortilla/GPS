@@ -120,7 +120,7 @@
         </style>
         <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>/gps/css/style.css" />
  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="<?php echo site_url(); ?>/gps/js/simpleslider.js"></script>
+
 
     </head>
     <?php $riba_lite_logo_text = get_theme_mod('riba_lite_text_logo', __('Riba', 'riba-lite') ); ?>
