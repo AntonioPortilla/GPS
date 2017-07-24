@@ -290,6 +290,9 @@
                 padding: 0;
                 margin: 0;
             }
+            .content-nosotros{
+                margin-top: 150px;
+            }
             @media (min-width: 768px) {
                 .col-md-3, .cell3.fluid-column {
                     box-sizing: border-box;
