@@ -78,10 +78,8 @@
                 <div class="footer-menu">
                 <ul class="vertical-navigation">
                 <li><a href="#/tipo-proyectos">Tipo de Proyecto</a></li>
-                <li><a href="#/todos-productos">Soluciones</a></li>
-                <li><a href="#/capacitaciones">Capacitaciones</a></li>
-                <li><a href="#/soporte-tecnico">Soporte técnico</a></li>
-                <li><a href="#/galeria">Galería</a></li>
+                <li><a href="<?php echo site_url(); ?>/servicios/">Servicios</a></li>
+                <li><a href="<?php echo site_url(); ?>/productos/">Productos</a></li>
                 </ul>
                 <ul class="vertical-navigation">
                 <li><a href="<?php echo site_url(); ?>/nosotros/">Sobre nosotros</a></li>

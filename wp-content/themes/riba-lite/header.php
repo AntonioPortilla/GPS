@@ -6,6 +6,7 @@
     	<link rel="profile" href="http://gmpg.org/xfn/11">
     	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
         <link rel="stylesheet" href="<?php echo site_url(); ?>/gps/css/style.css">
+        <link rel="shortcut icon" href="<?php echo site_url(); ?>/gps/images/favicon.ico"/>
     	<?php wp_head(); ?>
         <style>
             @media (min-width: 768px){
@@ -292,6 +293,13 @@
             }
             .content-nosotros{
                 margin-top: 150px;
+            }
+            .content-nosotros h2{
+                padding-top: 40px;
+                color: #e60714;
+            }
+            .content-nosotros p{
+                text-align: justify;
             }
             @media (min-width: 768px) {
                 .col-md-3, .cell3.fluid-column {
