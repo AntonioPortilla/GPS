@@ -230,30 +230,23 @@
             /*bloque servicios*/
             .bloque-servicios {
                 z-index: 105;
-                margin-top: 100px;
                 width: 100%;
                 margin-left: 0%;
-                background-color: #0099FF;
             }
             .contenedor-srv{
-                z-index: 91;
                 margin-right: -10000px;
                 width: 59.17%;
                 margin-left: 20.42%;
-                padding: 100px 0 250px 0;
+                padding: 100px 0;
                 margin-top: 195px;
             }
             .contenedor-srv h1{
                 font-family: niveau-grotesk, sans-serif;
                 font-weight: 900;
                 text-align: center;
-                z-index: 91;
-                color: #0099FF;
+                color: #e60714;
                 margin-top: -145px;
-                position: absolute;
-                width: 1400px;
-                left: 50%;
-                margin-left: -700px;
+                padding-bottom: 55px;
             }
             .contenedor-srv h2{
                 font-size: 50px;
@@ -274,8 +267,7 @@
                 position: relative;
                 font-family: niveau-grotesk, sans-serif;
                 font-weight: 900;
-                z-index: 105;
-                color: #FFFFFF;
+                color: #111;
                 margin-left: 50%;
                 float:left;
             }
@@ -283,13 +275,12 @@
                 font-family: lato, sans-serif;
                 font-weight: 300;
                 text-align: justify;
-                color: #FFFFFF;
                 position: relative;
                 margin-left: 50%;
                 padding-left: 10px;
             }
             .txt-right p {
-                color: white;
+                color: #111;
             }
             .txt-left h3{
                 font-family: lato, sans-serif;
