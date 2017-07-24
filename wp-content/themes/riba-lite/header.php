@@ -121,7 +121,7 @@
                 float: left;
                 width: 100%;
                 text-align: center;
-                margin-top: 143px;
+                margin-top: 30px;
             }
             /*slider*/
             .site-branding img {
