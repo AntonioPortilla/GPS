@@ -83,7 +83,7 @@
                 </ul>
                 <ul class="vertical-navigation">
                 <li><a href="<?php echo site_url(); ?>/nosotros/">Sobre nosotros</a></li>
-                <li><a href="#/contactactanos">Contáctanos</a></li>
+                <li><a href="<?php echo site_url(); ?>/contactanos/">Contáctanos</a></li>
                 <li><a href="#" target="_blank">Trabaja con nosotros</a></li>
                 <li><a href="#" target="_blank">Pedido en línea</a></li>
                 </ul>

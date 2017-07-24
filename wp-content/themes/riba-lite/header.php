@@ -122,7 +122,6 @@
                 float: left;
                 width: 100%;
                 text-align: center;
-                margin-top: 30px;
             }
             /*slider*/
             .site-branding img {
@@ -319,6 +318,22 @@
                     padding-left: 15px;
                     float: left;
                     width: 50%;
+                }
+            }
+            @media (max-width: 640px){
+                .line-horizontal{
+                    margin-top: 0;
+                }
+                button.responsive-button{
+                    border: 1px solid #e60714;
+                    color: #e60714;
+                    background: white;
+                }
+                nav.responsive-navigation ul li{text-align: center;}
+                nav.responsive-navigation ul li a:hover{color: #e60714;}
+                .footer-address{
+                    border-bottom: 1px solid rgba(255, 255, 255, .6);
+                    margin-bottom: 52px;
                 }
             }
 
