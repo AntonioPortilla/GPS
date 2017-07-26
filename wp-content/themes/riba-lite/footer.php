@@ -76,16 +76,16 @@
             </div>
             <div class="fluid-column cell6">
                 <div class="footer-menu">
-                <ul class="vertical-navigation">
-                <li><a href="#/tipo-proyectos">Tipo de Proyecto</a></li>
-                <li><a href="<?php echo site_url(); ?>/servicios/">Servicios</a></li>
-                <li><a href="<?php echo site_url(); ?>/productos/">Productos</a></li>
+                <ul class="vertical-navigation menu-footer">
+                    <li><a href="#/tipo-proyectos">Tipo de Proyecto</a></li>
+                    <li><a href="<?php echo site_url(); ?>/servicios/">Servicios</a></li>
+                    <li><a href="<?php echo site_url(); ?>/productos/">Productos</a></li>
                 </ul>
-                <ul class="vertical-navigation">
-                <li><a href="<?php echo site_url(); ?>/nosotros/">Sobre nosotros</a></li>
-                <li><a href="<?php echo site_url(); ?>/contactanos/">Contáctanos</a></li>
-                <li><a href="#" target="_blank">Trabaja con nosotros</a></li>
-                <li><a href="#" target="_blank">Pedido en línea</a></li>
+                <ul class="vertical-navigation menu-footer2">
+                    <li><a href="<?php echo site_url(); ?>/nosotros/">Sobre nosotros</a></li>
+                    <li><a href="<?php echo site_url(); ?>/contactanos/">Contáctanos</a></li>
+                    <li><a href="#" target="_blank">Trabaja con nosotros</a></li>
+                    <li><a href="#" target="_blank">Pedido en línea</a></li>
                 </ul>
                 <div class="u-reset"></div>
                 </div>

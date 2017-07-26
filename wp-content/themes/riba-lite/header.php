@@ -335,6 +335,45 @@
                     border-bottom: 1px solid rgba(255, 255, 255, .6);
                     margin-bottom: 52px;
                 }
+                .mt-contact-bar{display: none;}
+                #header-container{padding-top: 20px;}
+                #masthead{background-color: transparent;}
+                .menu-footer, .menu-footer2{
+                    margin-left: 0;
+                    width: 50%;
+                }
+                ul.social{padding-left: 0}
+                .etex-footer {
+                    text-align: center;
+                    padding-bottom: 46px;
+                    padding-top: 16px;
+                }
+                .etex-footer img{padding-left: 0}
+                .contenedor-srv{
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding: 35px 0;
+                }
+                .nosotros-home{padding-top: 0px;margin-top: 70px}
+                article.hentry header.entry-header h1{padding-top: 0}
+                .contenedor-srv .txt-left, .contenedor-srv .txt-right{
+                    width: 100%;
+                    margin: 0 auto;
+                    display: block;
+                    left: initial;
+                    float: left;
+                }
+                .contenedor-srv{
+                    margin-top: 0;
+                }
+                .txt-left h2, .txt-left h3{
+                    font-size: 22px;text-align: center;
+                }
+                .txt-left{
+                    min-height: initial;
+                }
+                .contenedor-srv h1{margin-top: 0;padding-bottom: 0;}
             }
 
 
