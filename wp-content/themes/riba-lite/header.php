@@ -300,6 +300,7 @@
             .content-nosotros p{
                 text-align: justify;
             }
+            div.wpcf7-validation-errors{border: 0;}
             @media (min-width: 768px) {
                 .col-md-3, .cell3.fluid-column {
                     box-sizing: border-box;
