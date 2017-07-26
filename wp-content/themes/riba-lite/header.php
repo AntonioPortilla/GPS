@@ -374,6 +374,7 @@
                     min-height: initial;
                 }
                 .contenedor-srv h1{margin-top: 0;padding-bottom: 0;}
+                .content-nosotros{margin-top: 50px;}
             }
 
 
