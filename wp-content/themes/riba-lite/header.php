@@ -301,6 +301,41 @@
                 text-align: justify;
             }
             div.wpcf7-validation-errors{border: 0;}
+            .mapa{max-width: 1281px}
+            .mapa img{width: 100%;}
+            .myModal{display: none}
+            .iframe-dir{
+                display: block;
+                position: fixed;
+                z-index: 101;
+                left: 50%;
+                top: 15%;
+                margin-left: -40%;
+                margin-top: 0px;
+                width: 80%;
+                height: 70%;
+                padding: 2em;
+                box-shadow: 1px 1px 3px rgba(0,0,0,0.35);
+                background-color: white;
+            }
+            .mapa img{cursor:pointer;}
+            .lean-overlay{
+                position: fixed;
+                z-index: 100;
+                top: 0px;
+                left: 0px;
+                height: 100%;
+                width: 100%;
+                background: rgb(0, 0, 0);
+                opacity: 0.5;
+                overflow: auto;
+            }
+            .iframe-dir .cerrar{
+                position: absolute;
+                right: 0;
+                top: 0;
+                cursor: pointer;
+            }
             @media (min-width: 768px) {
                 .col-md-3, .cell3.fluid-column {
                     box-sizing: border-box;
@@ -376,6 +411,14 @@
                 }
                 .contenedor-srv h1{margin-top: 0;padding-bottom: 0;}
                 .content-nosotros{margin-top: 50px;}
+                .iframe-dir{
+                    width: 98%;
+                    margin-left: -49%;
+                    padding: 10px;
+                }
+                .iframe-dir .cerrar img{
+                    width: 50px;
+                }
             }
 
 

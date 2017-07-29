@@ -34,8 +34,7 @@
     <div class="clearfix"></div>
     <div class="footer-contact-container">
             <div class="mapa">
-
-            <iframe class="actAsDiv" style="width:100%;height:100%;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;q=El%20Derby%20250%2C%20Lima%2015023&amp;aq=0&amp;ie=UTF8&amp;t=m&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe>
+                <img src="<?php echo site_url(); ?>/gps/images/dir.png" alt="mapa">
             </div>
         <div class="container" style="display:none">
             <div class="row">
@@ -142,6 +141,13 @@
 
 
 <?php wp_footer(); ?>
+<div class="myModal">
+	<div class="iframe-dir">
+		<div class="cerrar"><img src="<?php echo site_url(); ?>/gps/images/close.png" alt=""></div>
+	    <iframe class="actAsDiv" style="width:100%;height:100%;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;q=El%20Derby%20250%2C%20Lima%2015023&amp;aq=0&amp;ie=UTF8&amp;t=m&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe>
+	</div>
+</div>
+<div class="lean-overlay" style="display:none"></div>
 
 <script>
     $('.link-wrapper').on('mouseover', function(){
@@ -166,6 +172,16 @@
         $('#primary-menu li a').css('border-bottom', '0');
         $('#primary-menu li:nth-child(4) a').css('border-bottom', '4px solid #e60714');
     };
+
+    $('.mapa img').on('click', function() {
+    	$('.myModal').css('display', 'block');
+    	$('.lean-overlay').css('display', 'block');
+    });
+
+    $('.iframe-dir .cerrar').on('click', function() {
+    	$('.myModal').css('display', 'none');
+    	$('.lean-overlay').css('display', 'none');
+    })
 </script>
 </body>
 </html>
