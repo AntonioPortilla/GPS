@@ -332,9 +332,12 @@
             }
             .iframe-dir .cerrar{
                 position: absolute;
-                right: 0;
-                top: 0;
+                right: -12px;
+                top: -20px;
                 cursor: pointer;
+            }
+            .iframe-dir .cerrar img{
+                width: 65px;
             }
             @media (min-width: 768px) {
                 .col-md-3, .cell3.fluid-column {
@@ -419,6 +422,7 @@
                 .iframe-dir .cerrar img{
                     width: 50px;
                 }
+                .iframe-dir .cerrar{right: 0}
             }
 
 
