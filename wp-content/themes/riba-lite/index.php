@@ -32,7 +32,7 @@
 
 
             <?php endwhile; ?>
-            <div class="clearfix"></div>
+            <div class="clearfix endpost"></div>
 
 
             <?php do_action('mtl_after_content_above_footer'); ?>

@@ -339,6 +339,32 @@
             .iframe-dir .cerrar img{
                 width: 65px;
             }
+            header.SERVICIOS h3 div,
+            header.NOSOTROS h3 div,
+            header.PRODUCTOS h3 div,
+            header.CONTACTO h3 div{
+                text-align: center;
+            }
+            header.categorias h3 span{
+                width: 56px;
+                height: 58px;
+                position: absolute;
+                margin-left: -23px;
+                top: 220px;
+            }
+            header.SERVICIOS h3 span{
+                background: url('gps/images/servicios.png');
+            }
+            header.NOSOTROS h3 span{
+                background: url('gps/images/nosotros.png');
+            }
+            header.PRODUCTOS h3 span{
+                background: url('gps/images/producto.png');
+            }
+            header.CONTACTO h3 span{
+                background: url('gps/images/contacto.png');
+            }
+
             @media (min-width: 768px) {
                 .col-md-3, .cell3.fluid-column {
                     box-sizing: border-box;

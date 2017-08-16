@@ -17,8 +17,8 @@
         </div><!-- .post-cover-wrapper -->
 
         <div class="entry-content">
-            <header class="entry-header">
-                <?php the_title( sprintf( '<h3 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h3>' ); ?>
+            <header class="entry-header categorias <?php  the_title()  ?>">
+                <?php the_title( sprintf( '<h3 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a><div><span></span></div></h3>' ); ?>
 
                 <?php if ( 'post' == get_post_type() ) : ?>
                     <?php do_action('mtl_entry_meta'); ?>
