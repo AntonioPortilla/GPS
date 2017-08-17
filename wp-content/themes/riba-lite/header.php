@@ -364,6 +364,7 @@
             header.CONTACTO h3 span{
                 background: url('gps/images/contacto.png');
             }
+            .mt-contact-bar{display:none}
 
             @media (min-width: 768px) {
                 .col-md-3, .cell3.fluid-column {

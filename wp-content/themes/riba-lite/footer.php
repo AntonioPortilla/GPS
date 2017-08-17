@@ -98,7 +98,7 @@
             <div class="u-reset"></div>
             </div>
             <div class="etex-footer">
-            <img src="<?php echo site_url(); ?>/gps/images/global-footer.png" alt="">
+            <img src="<?php echo site_url(); ?>/gps/images/GPSLogo.png" alt="" width="170">
                 <a href="http://www.etexgroup.com" class="etex-logo" target="_blank"></a>
             </div>
             </div>
