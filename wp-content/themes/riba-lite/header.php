@@ -365,6 +365,10 @@
                 background: url('gps/images/contacto.png');
             }
             .mt-contact-bar{display:none}
+            .headroom--unpinned.headroom--not-top.site-header{
+                top: 130px;
+                padding-top: 10px;
+            }
 
             @media (min-width: 768px) {
                 .col-md-3, .cell3.fluid-column {
