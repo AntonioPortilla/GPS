@@ -91,8 +91,8 @@
             </div>
             <div class="fluid-column cell3">
                  <ul class="social">
-                    <li><a href="#"><img src="<?php echo site_url(); ?>/gps/images/face.png" alt="facebook"></a></li>
-                    <li><a href="#"><img src="<?php echo site_url(); ?>/gps/images/lin.png" alt="instagram"></a></li>
+                    <li><a href="#" class="facebook"><span></span></a></li>
+                    <li><a href="#" class="linkedin"><span></span></a></li>
                 </ul>
             </div>
             <div class="u-reset"></div>
@@ -172,6 +172,7 @@
     }else if(window.location.href == ruta_productos){
         $('#primary-menu li a').css('border-bottom', '0');
         $('#primary-menu li:nth-child(3) a').css('border-bottom', '4px solid #e60714');
+        $('.contenedor-srv').addClass('productosFull');
     }else if(window.location.href == ruta_contact){
         $('#primary-menu li a').css('border-bottom', '0');
         $('#primary-menu li:nth-child(4) a').css('border-bottom', '4px solid #e60714');

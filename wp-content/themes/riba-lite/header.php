@@ -42,10 +42,25 @@
             }
             .social li {
                 display: inline-block;
-                padding: 0 15px;
             }
             .social li img{
                 max-width: 50px
+            }
+            .social li span{
+                background: url('gps/images/redes-red.png');
+                background-repeat: no-repeat;
+            }
+            .social .facebook span{
+                background-position: -28px 0;
+                width: 68px;
+                height: 83px;
+                display: inline-block;
+            }
+            .social .linkedin span{
+                background-position: -112px 0;
+                width: 68px;
+                height: 83px;
+                display: inline-block;
             }
             .localizacion li {
                 display: inline-block;
@@ -368,6 +383,33 @@
             .headroom--unpinned.headroom--not-top.site-header{
                 top: 130px;
                 padding-top: 10px;
+            }
+            .productosFull{
+                width: 100%;
+                margin-left: initial;
+                text-align: justify;
+            }
+            .productosFull p{
+                color: #000;
+            }
+            .lista-producto{
+                margin: 50px 0;
+                text-align: center;
+            }
+            .lista-producto li{
+                display: inline-block;
+                font-size: 14px;
+                margin: 0 15px;
+            }
+            .lista-producto li:last-child{
+                color: #e60714;
+            }
+            .lineHoritonzal{
+                width: 100%;
+                height: 4px;
+                background: #e60714;
+                margin-top: 5px;
+                float: left;
             }
 
             @media (min-width: 768px) {
