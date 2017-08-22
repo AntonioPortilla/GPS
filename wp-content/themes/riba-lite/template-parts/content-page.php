@@ -1,4 +1,5 @@
 <div class="slider-productos">
+	<div class="line-horizontal" style="visibility:hidden"></div>
 	<?php if ( function_exists( 'easingslider' ) ) { easingslider( 60 ); } ?>
 </div>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
