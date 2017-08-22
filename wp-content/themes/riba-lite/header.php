@@ -400,6 +400,9 @@
             .lista-producto li:last-child{
                 color: #e60714;
             }
+            .lista-producto li a:hover{
+                color: #e60714;
+            }
             .lineHoritonzal{
                 width: 100%;
                 height: 4px;
@@ -407,7 +410,14 @@
                 margin-top: 5px;
                 float: left;
             }
-
+            .content-producto{
+                margin-top: 65px;
+            }
+            .content-producto h1{
+                color: #e60714;
+                text-align: left !important;
+            }
+        /*contenido media queryes*/
             @media (min-width: 768px) {
                 .col-md-3, .cell3.fluid-column {
                     box-sizing: border-box;
