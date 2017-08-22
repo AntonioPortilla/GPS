@@ -410,9 +410,7 @@
                 margin-top: 5px;
                 float: left;
             }
-            .content-producto{
-                margin-top: 65px;
-            }
+            
             .content-producto h1{
                 color: #e60714;
                 text-align: left !important;

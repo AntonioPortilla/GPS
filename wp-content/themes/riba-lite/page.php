@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<div class="container">
-	<div class="row">
+<div class="container__">
+	<div class="row__">
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">
 
