@@ -91,8 +91,8 @@
             </div>
             <div class="fluid-column cell3">
                  <ul class="social">
-                    <li><a href="#" class="facebook"><span></span></a></li>
-                    <li><a href="#" class="linkedin"><span></span></a></li>
+                    <li><a href="#facebook" class="facebook"><img src="<?php echo site_url(); ?>/gps/images/face.png" alt="facebook"></a></li>
+                    <li><a href="#linkedin" class="linkedin"><img src="<?php echo site_url(); ?>/gps/images/link.png" alt="linkedin"></a></li>
                 </ul>
             </div>
             <div class="u-reset"></div>

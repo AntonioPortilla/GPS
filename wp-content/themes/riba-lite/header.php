@@ -50,17 +50,13 @@
                 background: url('gps/images/redes-red.png');
                 background-repeat: no-repeat;
             }
-            .social .facebook span{
+            .social img{
                 background-position: -28px 0;
-                width: 68px;
-                height: 83px;
+                width: 50px;
                 display: inline-block;
             }
-            .social .linkedin span{
-                background-position: -112px 0;
-                width: 68px;
-                height: 83px;
-                display: inline-block;
+            .social a{
+                display: block;
             }
             .localizacion li {
                 display: inline-block;
