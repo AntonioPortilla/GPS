@@ -43,10 +43,10 @@ if(!class_exists('MTL_Preloader_Output')) {
             //var setting
             $this->preloader_is_enabled = get_theme_mod('riba_lite_enable_site_preloader', 1);
             //$this->preloader_text = get_theme_mod('riba_lite_preloader_text', __('Loading :)', 'riba-lite'));
-			$this->preloader_text = get_theme_mod('riba_lite_preloader_text', __('GLOBAL PACKING SOLUTIONS', 'riba-lite'));
-            $this->preloader_bg_color = get_theme_mod('riba_lite_preloader_bg_color', '#e60714');
+			$this->preloader_text = get_theme_mod('riba_lite_preloader_text', __('', 'riba-lite'));
+            $this->preloader_bg_color = get_theme_mod('riba_lite_preloader_bg_color', '');
             $this->preloader_progress_color = get_theme_mod('riba_lite_preloader_progress_color', '#000');
-            $this->preloader_text_color = get_theme_mod('riba_lite_preloader_text_color', '#fff');
+            $this->preloader_text_color = get_theme_mod('riba_lite_preloader_text_color', '');
             $this->preloader_style = get_theme_mod('riba_lite_preloader_style', 'default');
 
             // Hooks

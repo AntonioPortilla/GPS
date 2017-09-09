@@ -312,7 +312,11 @@
                 text-align: justify;
             }
             div.wpcf7-validation-errors{border: 0;}
-            .mapa{max-width: 1281px}
+            .mapa{
+                max-width: 1281px;
+                margin: auto;
+                text-align: center;
+            }
             .mapa img{width: 100%;}
             .myModal{display: none}
             .iframe-dir{
@@ -418,6 +422,11 @@
                 text-align: left !important;
             }
         /*contenido media queryes*/
+            @media (min-width: 1367px) {
+                .mapa{
+                    max-width: 100%;
+                }
+            }
             @media (min-width: 768px) {
                 .col-md-3, .cell3.fluid-column {
                     box-sizing: border-box;
